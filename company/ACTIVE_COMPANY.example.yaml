@@ -1,0 +1,4 @@
+# Copy this file locally to ACTIVE_COMPANY.yaml when activating a company pack.
+company_id: <company-id>
+pack_path: company/packs/<company-id>
+status: active

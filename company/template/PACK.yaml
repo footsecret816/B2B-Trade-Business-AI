@@ -1,0 +1,6 @@
+pack_id: <company-id>
+company_name: <confirmed company name>
+version: 0.1.0
+status: draft
+source_type: user-materials-or-github-pack
+updated_at: <YYYY-MM-DD>

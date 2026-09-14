@@ -1,0 +1,18 @@
+# Local runtime/company data
+company/inbox/*
+!company/inbox/.gitkeep
+company/pending/*
+!company/pending/.gitkeep
+company/packs/*
+!company/packs/.gitkeep
+company/ACTIVE_COMPANY.yaml
+memory/customers/*
+!memory/customers/.gitkeep
+memory/projects/*
+!memory/projects/.gitkeep
+
+# Common local files
+.DS_Store
+Thumbs.db
+.env
+.env.*
