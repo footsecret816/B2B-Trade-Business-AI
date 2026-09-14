@@ -1,14 +1,19 @@
-# project-next-action
+# Skill: Project Next Action
 
 ## Purpose
-把“回复完了”推进到“下一步明确”。
+Turn business analysis into clear project movement.
 
 ## Identify
-- 下一步动作是什么？
-- 谁负责？
-- 需要确认什么？
-- 什么条件触发下一阶段？
-- 有什么卡点或依赖？
+- what the customer needs to confirm,
+- what the company needs to confirm,
+- what the factory/supplier needs to confirm,
+- internal actions and owners when known,
+- unresolved issues,
+- decisions required,
+- the next communication trigger.
 
-## Rule
-不要为了显得积极而制造虚假的时间承诺或批准。下一步必须建立在当前已确认事实和权限范围内。
+## Use for
+Complex product development, sampling, mold projects, packaging changes, certification/test follow-up, production coordination, and stalled projects.
+
+## Boundary
+Plan actions only from known responsibilities and facts. Do not imply that an action has been completed, approved, or scheduled unless confirmed.

@@ -1,17 +1,28 @@
-# business-writing
+# Skill: Business Writing
 
 ## Purpose
-将已确定的商业意图转换成自然、专业、可推进业务的 B2B 沟通。
+Turn business intent into natural, concise, commercially effective B2B communication.
 
-## Channels
-Email / WhatsApp / LinkedIn / follow-up / internal-external bridge messages.
+## Covers
+- email,
+- WhatsApp/chat,
+- LinkedIn outreach,
+- follow-up,
+- inquiry replies,
+- revision of existing drafts.
 
-## Style standard
-- 专业、自然、不卑不亢。
-- 避免客服腔、过度道歉、过度解释和机械翻译。
-- 老客户可以更自然；技术、认证、合规内容更精准谨慎。
-- 用户要求“精简”时要真正缩短，而不是保留原结构只删少量词。
-- 修改局部时尽量保留未要求修改的内容。
+## Writing principles
+- Do not mechanically translate source-language wording.
+- Preserve commercial intent, facts, numbers, and agreed positions.
+- Use professional but natural language.
+- Avoid excessive apology, weak wording, robotic formality, and unnecessary explanation.
+- Match tone to relationship and task: new prospect, existing customer, negotiation, technical issue, stalled project, or risk-sensitive communication.
+- When the user asks for a revision, preserve the parts they did not ask to change unless consistency requires a small adjustment.
 
-## Rule
-复杂问题先完成必要分析与策略，再写正文。邮件不是用来掩盖事实缺口的。
+Use `STYLE-PATTERNS.md` for reusable tone, structure, revision, follow-up, and information-discipline patterns.
+
+## Follow-up principle
+A follow-up should have a reason to re-enter the conversation: project concern, useful update, decision reopening, value addition, deadline, or relationship maintenance. Avoid generic repeated chasing.
+
+## Boundary
+Writing must not add unsupported facts, approvals, certifications, guarantees, prices, or delivery commitments.

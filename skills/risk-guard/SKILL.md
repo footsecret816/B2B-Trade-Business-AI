@@ -1,14 +1,20 @@
-# risk-guard
+# Skill: Risk Guard
 
 ## Purpose
-识别并控制商务、技术、认证、法规、知识产权、承诺和数据范围风险。
+Identify business, technical, compliance, IP, and commitment risks before communication or action.
 
-## Checkpoints
-- 是否把一般能力说成当前项目确定能力？
-- 是否未经授权承诺价格/MOQ/付款/交期/赔偿？
-- 是否把内部测试、供应商声明或旧证书包装成监管认可？
-- 是否存在 IP/动画形象/品牌复刻风险？
-- 是否把推断、旧事实或其他客户事实用于当前项目？
+## Check for
+- unsupported certification or regulatory claims,
+- product-specific vs company-general capability confusion,
+- medical or performance overclaiming,
+- IP / design-copying exposure,
+- unconfirmed technical parameters,
+- delivery or production commitments without confirmation,
+- payment, compensation, exclusivity, or pricing risk,
+- disclosure of confidential customer/supplier information.
 
-## Behavior
-发现风险时说明影响和可执行的安全替代方案；不要通过模糊表达掩盖风险。
+## Output
+State the risk, why it matters, and the safest business handling. Escalate to `TO_CONFIRM` when reliable evidence is missing.
+
+## Boundary
+This skill is a risk detector and business safeguard. It does not replace legal counsel, laboratories, certification bodies, or regulatory authorities.
