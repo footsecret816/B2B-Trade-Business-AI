@@ -1,30 +1,37 @@
 # B2B Trade Business AI — Architecture Baseline
 
-## Goal
-Externalize reusable B2B foreign-trade business methods into a company-agnostic, model-agnostic, platform-portable Business AI Harness.
+## Purpose
+A reusable, company-agnostic Business AI Harness for B2B foreign-trade work.
+
+## Core runtime
+`Context → Understand → Diagnose → Decide → Communicate → Advance`
+
+For complex commercial conflict: Strategy before Writing.
+For simple tasks: stay simple.
 
 ## Architecture
-- `core/` — reasoning and fact discipline
+- `core/` — model-agnostic runtime and lightweight business kernel
 - `skills/` — reusable business capabilities
-- `cases/` — abstract experience patterns and anti-patterns
+- `cases/` — anonymized Golden Cases and anti-patterns
 - `company/` — local company workspace and Company Packs
-- `memory/` — customer/project memory layer
-- `knowledge/` — company-independent reusable knowledge
-- `schemas/` — data structure standards
-- `evals/` — cross-model/platform acceptance tests
-- `adapters/` — thin platform wiring
+- `memory/` — customer/project history layer
+- `knowledge/` — generic industry knowledge only
+- `schemas/` — data contracts
+- `evals/` — cross-model/platform benchmarks
+- `adapters/` — thin platform integration layer
 
-## Company-agnostic principle
-The Core must not contain facts about any specific company. A company identity is created by loading or building a Company Pack under `company/packs/<company-id>/`.
+## Company model
+This repository does not assume any company identity.
+An installed Company Pack under `company/packs/<company-id>/` supplies company-specific facts.
 
-## Company onboarding
-Three supported paths:
-1. compatible GitHub Company Pack → validate → install locally;
-2. user materials → `company/inbox/` → `company-knowledge-curation` → operator review → formal pack;
-3. normal business conversation → lightweight candidate detection → `company/pending/` → operator confirmation → curation skill → pack update.
+Company Pack can come from:
+1. a compatible GitHub Company Pack;
+2. user-provided source materials curated through `company-knowledge-curation`;
+3. approved long-term company-information patches detected during normal business work.
 
-## Non-goals
-- Do not create many autonomous sub-agents.
-- Do not make every conversation run the heavy company-curation workflow.
-- Do not mix customer/project records into Company Knowledge.
-- Do not bind runtime logic to one machine path, model, or platform.
+## Data boundaries
+Company Knowledge is not Customer/Project Memory.
+Customer/project facts, prices, POs, temporary terms and special approvals must not become long-term company capability by accident.
+
+## Portability
+All paths are relative to logical `AGENT_ROOT`; platform/model/tool differences belong in thin adapters.
