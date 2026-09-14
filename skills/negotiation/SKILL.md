@@ -1,11 +1,17 @@
-# negotiation
+# Skill: Negotiation
 
 ## Purpose
-处理 MOQ、价格、付款、交期、样品费、模具费、补偿、独家条件等商务谈判问题。
+Structure B2B negotiation around constraints, trade-offs, and exchange conditions.
 
-## Principles
-- 先判断双方底线、可变条件和真实矛盾，再给话术。
-- 不擅自批准价格、折扣、MOQ 例外、付款例外、交期或赔偿。
-- 优先寻找可交换条件，而不是单方面让步。
-- 解释限制时给商业原因和可执行替代方案，避免只说“不行”。
-- 保持坚定但合作，不做弱势或攻击性表达。
+## Use for
+MOQ, price, payment, delivery, mold/sample fees, compensation, exclusivity, annual volume, packaging MOQ, and commercial exceptions.
+
+## Method
+1. Identify the customer's request and likely business reason.
+2. Separate hard constraints from flexible elements.
+3. Identify the company's current position and any missing approval.
+4. Look for legitimate exchange variables: quantity, scope, packaging, payment, timing, commitment, or project phase.
+5. Recommend a negotiation position before drafting language.
+
+## Boundary
+Never invent a bottom price, discount authority, exception, compensation amount, or management approval. If authority is missing, recommend a position and mark approval as required.

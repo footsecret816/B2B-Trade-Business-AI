@@ -22,3 +22,7 @@ Typical routing:
 - 认证/IP/承诺风险 → `risk-guard`
 - 复杂项目跟进 → `project-next-action`
 - 用户要建立/正式更新公司资料 → `company-knowledge-curation`
+
+## Company update split
+Normal business conversations do **not** continuously run `company-knowledge-curation`.
+The Core only detects a possible `COMPANY_UPDATE_CANDIDATE`. Formal review and write-back happens through `company-knowledge-curation` after operator confirmation.

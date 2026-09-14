@@ -1,12 +1,23 @@
-# customer-analysis
+# Skill: Customer Analysis
 
 ## Purpose
-拆解客户邮件、询盘、聊天消息和会议信息，识别客户明确需求、隐含意图、项目阶段、关键问题和未回答事项。
+Understand customer-facing input before deciding how to respond.
 
-## Use when
-- 用户问“客户这句话什么意思”
-- 需要拆分客户要求/问题/条件
-- 需要判断客户真正关注点或项目推进阶段
+## Use for
+Emails, messages, inquiries, PO notes, meeting notes, screenshots, and multi-turn customer communication.
 
-## Output principle
-简单理解题保持简洁；复杂询盘可输出需求、意图、风险、待确认项。不要把推断写成客户已明确表达的事实。
+## Analyze
+- explicit facts and numbers,
+- questions and requests,
+- confirmed items,
+- unresolved items,
+- customer objections or pressure,
+- likely underlying concern when evidence supports an inference,
+- current project stage,
+- what actually requires a reply.
+
+## Output behavior
+For simple requests, give a concise interpretation. For complex messages, structure the analysis around the decisions that matter.
+
+## Boundary
+Do not convert inferred intent into confirmed fact. Preserve exact commercial numbers and technical terms supplied by the user or customer.

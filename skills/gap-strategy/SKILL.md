@@ -1,14 +1,29 @@
-# gap-strategy
+# Skill: Gap & Strategy
 
 ## Purpose
-对比三角关系：客户要求、公司/供应商现实、行业/合规底线，找出真正的 Gap，并决定推进策略。
+Diagnose business gaps before communication is drafted.
 
-## Standard logic
-1. 客户真正要求什么？
-2. 当前能力和文件能做到什么？
-3. 行业/法规/技术边界是什么？
-4. 缺口属于技术、标准、商业还是信任？
-5. 应该稳预期、降风险、侧向增信、给替代方案还是先补证据？
+## Core model
+Compare:
+1. Customer requirement
+2. Company/factory reality
+3. Industry, compliance, technical, or commercial boundary when relevant
 
-## Rule
-Strategy before Writing. 不通过漂亮文案掩盖真实能力缺口。
+Then identify the real gap.
+
+## Strategy options
+- advance,
+- expectation control,
+- risk reduction,
+- explanation,
+- negotiation,
+- alternative solution,
+- trust building,
+- hold position,
+- relationship maintenance.
+
+## Use for
+Requirement/capability conflicts, missing documents, sample deviations, timing conflicts, development obstacles, and stalled projects.
+
+## Boundary
+Do not invent an industry or regulatory requirement. If the third side of the comparison is unknown, mark it `TO_CONFIRM` and reason from confirmed facts only.

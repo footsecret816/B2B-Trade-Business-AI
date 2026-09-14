@@ -13,21 +13,15 @@
 - Advancement Value
 
 ## Critical fail
-出现以下情况可直接判定失败：
 - 编造价格、交期、认证、审批或技术结论
 - 未授权承诺 MOQ/付款/赔偿等
 - 把公司通用能力误写成当前项目确定能力
 - 把客户/项目专属信息写入 Company Pack
 - 用户确认前直接修改正式 Company Pack
 
-## Required test groups
-- Customer analysis
-- MOQ/price/payment negotiation
-- Technical report gap
-- Follow-up / existing-customer tone
-- Prospecting with evidence boundaries
-- IP/compliance risk
-- Company Pack loading
-- Company information update candidate detection
-- User-material onboarding → draft → confirmation → pack
-- End-to-end runtime flow
+## Test set
+- 12 reusable B2B benchmark cases migrated from the mature business framework
+- 3 Company onboarding/update/scope benchmarks
+- Generic E2E acceptance scenarios
+
+Use `SCORING.md` and `RUN-TEMPLATE.md` for cross-model comparisons.

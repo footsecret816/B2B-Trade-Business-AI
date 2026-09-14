@@ -1,13 +1,16 @@
-# factory-bridge
+# Skill: Factory ↔ Customer Bridge
 
 ## Purpose
-在客户语言与工厂/技术语言之间做双向转换。
+Translate between customer-facing business/technical requirements and factory-facing execution language.
 
 ## Customer → Factory
-- 把客户要求拆成工厂可确认的参数、文件、标准、时间节点和待确认项。
-- 避免把客户模糊表达直接变成技术结论。
+Convert customer requests into concrete confirmation items such as material, tolerance, test method, packaging, MOQ, tooling, lead time, production control, and acceptance criteria.
 
 ## Factory → Customer
-- 把工厂内部、不标准或过于技术化的回复转换成客户可理解的商务表达。
-- 保留真实限制，不通过翻译弱化或放大工厂能力。
-- 必要时配合 `gap-strategy` 给替代方案和下一步。
+Convert informal or production-centric factory replies into accurate customer-safe business language without weakening the facts or inventing technical justification.
+
+## Use for
+Material limitations, mold constraints, color/tolerance issues, test requirements, sample deviations, packaging feasibility, production minimums, and technical confirmations.
+
+## Boundary
+This skill organizes and reframes technical information; it does not replace an engineer, laboratory, certification body, or factory confirmation.
